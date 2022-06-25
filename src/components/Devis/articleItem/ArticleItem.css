@@ -1,0 +1,33 @@
+.article_card {
+    max-width: 300px;
+    overflow: hidden;
+    height: 350px;
+    padding: 15px;
+    box-shadow: 0 0 15px #ddd;
+    margin: 10px 0;
+    position: relative;
+    text-align: center;
+}
+
+.article_card img {
+    width: 100%;
+    height: 200px;
+    display: block;
+    object-fit: cover;
+}
+
+.article_box h2 {
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: #323232;
+}
+
+.article_box input {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+}
